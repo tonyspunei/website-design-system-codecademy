@@ -8,14 +8,14 @@ body {
   font-family: sans-serif;
 }
 
-h1 {
+body > h1 {
   width: 80%;
   margin: 20px auto;
 }
 
 section {
   width: 80%;
-  margin: 0 auto;
+  margin: 20px auto;
   border: 2px solid #888;
   padding: 10px;
   min-height: 300px;
@@ -26,14 +26,13 @@ section h2 {
   margin: 20px 0;
 }
 
-ul li {
+.colors ul li {
   display: inline-block;
   height: 100px;
   width: 32%;
   color: #000;
   text-align: center;
   padding-top: 18px;
-  margin: 20px auto;
 }
 
 ul li p {
@@ -94,4 +93,29 @@ p.bold {
 
 p.italic {
   font-style: italic;
+}
+
+/* Headings Styles Model */
+
+.headings > h1 {
+  font-weight: 700;
+  font-style: 26px;
+  font-family: "Nunito Sans", sans-serif;
+  margin: 20px 0;
+}
+
+.headings ul {
+  padding-left: 40px;
+}
+
+.subheading {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+
+.paragraph {
+  font-weight: 400;
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
 }
